@@ -1,0 +1,50 @@
+/* 产品列表页样式 */
+/* 右侧内容 */
+#main>.centerPart .rightContent{
+    width: 910px;
+    height: 1530px;
+}
+/* 图片列表 */
+#main{
+    height: 1700px;
+    margin-bottom: 62px;
+}
+/* 外框 */
+#main>.centerPart .rightContent li{
+    width: 285px;
+    height: 333px;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 29px;
+    margin-left: 16px;     
+}
+/* 图片内容 */
+#main>.centerPart .rightContent li img{
+    width: 251px;
+    height: 250px;
+    padding:17px 17px 0px 17px ;
+}
+/*图片下的文字说明 */
+#main>.centerPart .rightContent li div{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f3e45;
+    margin-top: 10px;
+    margin-left: 22px;
+    line-height: 24px;
+}
+/* 右侧脚部 */
+#main>.centerPart .rightContent .digital{
+    height: 14px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+#main>.centerPart .rightContent .digital>span:first-child{
+    margin-right: 17px;
+}
+#main>.centerPart .rightContent .digital>span:nth-child(2){
+    color: #ec0000;
+}
+#main>.centerPart .rightContent .digital a{
+    text-decoration: none;
+}

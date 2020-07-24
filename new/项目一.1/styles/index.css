@@ -1,0 +1,526 @@
+/* 首页样式 */
+/* 主题内容 */
+
+/* 三块信息栏 */
+#main>.infomation{
+    width: 100%;
+    height:210px;
+    margin-bottom: 86px;
+}
+/*  版心*/
+#main>.infomation>.warp{
+    height:210px;
+}
+#main>.infomation>.warp>.leftInfomation,
+#main>.infomation>.warp>.centerInfomation,
+#main>.infomation>.warp>.rightInfomation
+{
+    width: 400px;
+    height:210px;
+    float: left;
+}
+/* 左边信息 */
+#main>.infomation>.warp .box1{
+    background-image: url("../images/01.jpg");
+}
+/* 中间信息 */
+#main>.infomation>.warp .box2{
+    background-image:url("../images/02.jpg");
+}
+/* 右边信息 */
+#main>.infomation>.warp .box3{
+    background-image:url("../images/03.jpg");
+}
+/* 大标题 */
+#main>.infomation>.warp .bigTitle{
+    width: 320px;
+    height:20px ;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top:44px;
+    margin-bottom: 28px;
+}
+/*小文字*/
+#main>.infomation>.warp .smallText{
+    width: 338px;
+    height:70px ;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;  
+}
+/* 产品展示 */
+#main>.productShow{
+    width: 100%;
+    height: 674px;
+}
+/* 小标题 */
+/* 版心 */
+#main>.productShow .warp{
+    height:50px;
+}
+#main>.productShow .warp span:first-child,
+#main>.News .warp>.smallTitle span:first-child{
+    font-size: 28px;
+    color: #252525;
+    margin-right: 18px;
+}
+#main>.productShow .warp span:last-child,
+#main>.News .warp>.smallTitle span:last-child{
+    font-size: 22px;
+    color: #bbb8b5;
+}
+/* 蓝色下划线 */
+#main>.productShow .warp .underline,
+#main>.News .warp>.smallTitle .underline{
+    width: 54px;
+    border: 4px solid  #15bdeb;
+    margin-top: 18px;
+} 
+/* 图片展示列表 */
+#main>.productShow>.showList{
+    height: 580px;
+    width: 100%;
+    margin-top:42px;
+}
+/* 左边区域 */
+#main>.productShow>.showList .leftList{
+    width: 50%;
+    height: 580px;
+}
+#main>.productShow>.showList .leftList li{
+    width: 270px;
+    height: 275px;
+}
+#main>.productShow>.showList .leftList li:first-child{
+    background-image: url("../images/pic01.jpg");
+    float: left;
+    margin:0px 30px 30px 0px;
+}
+#main>.productShow>.showList .leftList li:nth-child(2){
+    background-image: url("../images/pic02.jpg");
+    float: left;
+    margin:0px 0px 30px 0px;
+}
+#main>.productShow>.showList .leftList li:nth-child(3){
+    background-image: url("../images/pic03.jpg");
+    float: left;
+    margin:0px 30px 0px 0px ;
+}   
+#main>.productShow>.showList .leftList li:last-child{
+    background-image: url("../images/pic04.jpg");
+    float: left;
+}
+   /* 遮罩层 */
+#main>.productShow>.showList .leftList li>.single{
+    background: rgba(255,255,255,.8);
+    width: 270px;
+    height: 275px;
+    /* 父相 */
+    position: relative;
+    display: none;
+}
+#main>.productShow>.showList .leftList li>.single .word{
+     /* 子绝 */
+     width: 193px;
+     height: 60px;
+     margin: auto;
+     position: absolute;
+     top: 0px;
+     bottom:0px;
+     left: 0px;
+     right: 0px;
+     text-align: center;
+}
+/* 字体大小 */
+#main>.productShow>.showList .leftList li>.single .word>div:first-child{
+    font-size: 25px;
+    color:#252525;
+}
+#main>.productShow>.showList .leftList li>.single .word>div:last-child{
+    font-size: 22px;
+    color:#15bded;
+}
+/* 左边鼠标悬停事件区域 */
+#main>.productShow>.showList .leftList li:hover .single{
+    display: block;
+}
+/* 右边区域 */
+#main>.productShow>.showList .rightList{
+    width: 50%;
+    height: 580px;
+    background-image: url("../images/pic05.jpg")
+}
+/* 右边区域 遮罩层 */
+#main>.productShow>.showList .rightList>.single{
+    background: rgba(255,255,255,.8);
+    width: 600px;
+    height: 580px;
+    /* 父相 */
+    position: relative;
+    display: none;
+}
+#main>.productShow>.showList .rightList>.single .word{
+     /* 子绝 */
+     width: 206px;
+     height:154px;
+     margin: auto;
+     position: absolute;
+     top: 0px;
+     bottom:0px;
+     left: 0px;
+     right: 0px;
+     text-align: center;
+     
+}
+/* 字体大小 */
+#main>.productShow>.showList .rightList>.single .word>div:first-child{
+    font-size: 32px;
+    color:#252525;
+}
+#main>.productShow>.showList .rightList>.single .word>div:nth-child(2){
+    font-size: 28px;
+    color:#15bded;
+}
+/* 小框 */
+#main>.productShow>.showList .rightList>.single .word>div:last-child{
+    border: 1px solid #3c3c3c;;
+    width: 138px;
+    height: 46px;
+    color: #3c3c3c;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    line-height:46px ;
+    border-radius:70px;
+    margin-top: 26px;
+    
+}
+/* 左边鼠标悬停事件区域 */
+#main>.productShow>.showList .rightList:hover .single{
+    display: block;
+}
+/* 关于我们 */
+#main>.aboutUs{
+    width: 100%;
+    height: 510px;
+    background-image:url("../images/banner3.jpg");
+    background-position: -250px 0px;
+    margin-top: 50px;
+    /* 父相 */
+    position: relative;
+}
+/* 文字内容盒子 */
+#main>.aboutUs>.textBox{
+    width: 710px;
+    height: 370px;
+    /* 子绝 */
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+/* 标题头 */
+#main>.aboutUs>.textBox>.titleTOP{
+    height: 47px;
+    width: 710px;
+    text-align: center;
+}
+#main>.aboutUs>.textBox>.titleTOP>.textUs{
+    color: #3c3c3c;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+/* 下划线 */
+#main>.aboutUs>.textBox>.titleTOP>.line{
+    width: 54px;
+    border: 5px solid #2aafd1;
+    margin: auto;
+}
+/* 文字内容 */
+#main>.aboutUs>.textBox>.textContent{
+    width:710px ;
+    height: 189px;
+    font-size: 16px;
+    color:#6b6b6b ;
+    margin-top: 36px;
+    text-align: center;
+}
+/*按钮  */
+#main>.aboutUs>.textBox>button{
+    width: 155px;
+    height:46px ;
+    background: #25bbce;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 80px;
+    margin-top: 42px;
+    border: #25bbce;
+}
+/* 新闻动态 */
+#main>.News{
+    margin-top: 68px;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+/*  版心*/
+#main>.News>.warp{
+    height: 650px;
+}
+#main>.News>.warp>.smallTitle{
+    margin-bottom: 35px;
+}
+/*动态列表  */
+#main>.News>.warp>.conditionList .listBox{
+    width: 380px;
+    height: 500px;
+}
+#main>.News>.warp>.conditionList ul{
+    margin-top: 24px;
+}
+#main>.News>.warp>.conditionList li{
+    border-bottom: 3px solid #d9d9dc;
+    padding: 10px 5px 12px 5px;
+}
+/* 列表中文字样式 */
+#main>.News>.warp>.conditionList li>span:first-child{
+    font-size: 14px;
+    color: #6a6a6a;
+}
+#main>.News>.warp>.conditionList li>span a{
+    color: #15bded;
+}
+#main>.News>.warp>.conditionList li>span:last-child{
+    color: #a5a5b1;
+    position: relative;
+    top: 3px;
+}
+    /*  中间部分定位*/
+#main>.News>.warp>.conditionList .center{
+    margin-left: 30px;
+    font-size: 12px;
+}
+/* 客户咨询 */
+#consult{
+    width:50px ;
+    height:100px;
+    background-color: #394c52;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: 600px;
+/*  */
+    transform: translateY(-50%);
+}
+#consult a{
+    width: 50px;
+    height: 50px;
+    background-image: url("../images/bg.png");
+ /* background: no-repeat;*/ 
+    float:left; /* 转为BFC : 块级格式上下文 */
+    /* 父相 */
+    position: relative;
+}
+#consult a.jump1{background-position-y: 0;}
+#consult a.jump2{background-position-y: -50px;}
+#consult a.jump3{background-position-y: -100px;}
+#consult a.jump4{background-position-y: -150px;}
+
+#consult span{
+    width: 150px;
+    height: 50px;
+    background: #007bf9;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    display: none;
+    /* 子绝 */
+    position: absolute;
+    left: -150px;
+
+}
+#consult .rTop{
+    display: none;
+}
+/* 登录模态框 */
+#loginBox{
+width:100% ;
+height:500px ;
+background: rgba(12, 10, 10,0.8);
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+display: none;
+
+}
+.loginBtn{
+    /* 鼠标移入变成手 */
+cursor: pointer;
+}
+
+
+/* loginBox */
+#loginBox{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+
+#loginBox .login-cont{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#loginBox .login-cont h2{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+
+#loginBox .login-cont p{
+    margin: 20px 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+#loginBox .login-cont p .del-user,
+#loginBox .login-cont p .chang-img{
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+#loginBox .login-cont p .chang-img{
+    display: block;
+}
+
+#loginBox .login-cont input{
+    text-indent: 10px;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 40px;
+    line-height: 1;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+}
+
+#loginBox .login-cont input[type=submit]{
+    text-indent: 0;
+    background: #337ab7;
+    color: #fff;
+}
+
+#loginBox .login-cont .delete-btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #aaa;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+#loginBox .login-cont .user-msg,
+#loginBox .login-cont .pwd-msg{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color:red;
+}
+
+/* 轮播图 */
+/* banner */
+
+/* 文字框 */
+#main>.banner>.textCenter{
+    width:450px ;
+    height: 210px;
+    background-image: url("../images/border.png");
+    /* 子绝 */
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    bottom:0px;
+    left: 0px;
+    right: 0px;
+}
+/*大标题  */
+#main>.banner>.textCenter>.bigTitle{
+    width:360px ;
+    height: 44px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 38px;
+}
+/* 小文字 */
+#main>.banner>.textCenter>.smallText{
+    width:360px ;
+    height: 51px;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+#main>.banner{
+    width: 1200px;
+    height: 549px;
+    /* background-position: -219px 0; */
+    /* 父相 */
+    position: relative;
+    /* margin-bottom: 28px; */
+    border: 1px solid rgb(209, 15, 144);
+    margin: auto;
+     overflow: hidden; 
+}
+.pic{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+.pic li {
+    float: left;
+    width: 1200px;
+    list-style: none;
+    height:549px;
+}
+.pic li  img{
+    width: 1200px;
+    height:549px;
+    background: no-repeat;
+}
+

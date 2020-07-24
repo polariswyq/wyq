@@ -1,0 +1,88 @@
+/*家居网-在线留言  */
+#main{
+    height: 842px;
+    margin-bottom: 98px;
+}
+/*  右边内容*/
+#main>.centerPart .rightContent{
+    width: 801px;
+    height: 670px;
+    margin-left: 23px;
+}
+/*  谢谢关注*/
+#main>.centerPart .rightContent>.thanks{
+    font-size: 16px;
+    color: #3f3e45;
+    line-height: 38px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+/* 联系信息 */
+/*信息 */
+#main>.centerPart .rightContent li>div:first-child,
+/* 咨询项目 */
+#main>.centerPart .rightContent .consult{
+    font-size: 14px;
+    color: #606369;
+    font-weight: bold;
+}
+#main>.centerPart .rightContent li>div:first-child>span,
+/* 咨询项目 */
+#main>.centerPart .rightContent .consult>span{
+    color: #ec0000;
+}
+/* 文本框 */
+#main>.centerPart .rightContent li>div:last-child{
+    width:800px;
+    height:40px;
+    border: 2px solid #e1e1e1;
+    margin: 14px 0px 26px 0px;
+}
+/* 咨询项目 */
+/* 咨询内容 */
+#main>.centerPart .rightContent .consult{
+    font-size: 14px;
+    color: #606369;
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+/* 咨询项目 */
+/* 咨询内容 */
+#main>.centerPart .rightContent .consult>span{
+    color: #ec0000;
+}
+/* 选择 */
+#main>.centerPart .rightContent .choice{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ccc;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 42px;
+    color:white;
+}
+#main>.centerPart .rightContent .goods{
+    margin-right: 18px;
+}
+#main>.centerPart .rightContent .choice:active{
+    background: rgb(106, 139, 55);
+}
+/* 咨询内容 */
+#main>.centerPart .rightContent textarea{
+    width:800px ;
+    height:73px ;
+}
+/* 按钮 */
+#main>.centerPart .rightContent button{
+    width:801px ;
+    height:45px ;
+    background: #21bcd8;
+    color: white;
+    font-size:14px;
+    font-weight: bold;
+    margin-top: 26px;
+    border:none;
+}

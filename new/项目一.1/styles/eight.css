@@ -1,0 +1,33 @@
+/* 家居网-联系我们 */
+#main .rightContent{
+    height: 620px;
+    width: 913px;
+    margin-left: 25px;
+}
+/* 地图 */
+#main .rightContent>.map{
+    height:360px;
+    width: 913px;
+    background: rgb(221, 204, 183);
+}
+/* js */
+#container {width:913px; height: 360px; }  
+/* 信息栏 */
+#main .rightContent>.box{
+    height:200px;
+    width: 913px;
+    margin-top: 35px;
+    position: relative;
+    border:2px solid #eee;
+} 
+#main .rightContent>.box>.info{
+    height:135px;
+    width: 395px;
+    position: absolute;
+    margin: auto;
+    top: 32px;
+    left:23px ;
+    color: #a8a8a8;
+    font-size: 15px;
+    line-height: 36px;
+}

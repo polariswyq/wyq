@@ -1,0 +1,268 @@
+/* 公共样式文件 */
+/* 左浮动 */
+.lf{
+    float: left;
+}
+/* 右浮动 */
+.rf{
+    float: right;
+}
+/* 清浮动 */
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+/* 版心 */
+.warp
+{
+    width:1200px;
+   margin:auto;
+}
+/* 白色文字 */
+.colorwhite{
+    color: white;
+}
+
+/* 公用的页头页脚 */
+/* 头部 */
+#header{
+    height: 150px;
+    width: 100%;
+}
+/* 版心 */
+#header .warp{
+    height: 150px;
+   
+}
+/*欢迎栏文字 */
+#header>.welcome{
+    background: #252525;
+    height: 45px;
+    line-height: 45px;
+}
+/*右边文字和图标  */
+#header>.welcome>.warp .tell{
+    width:15px;
+    height:13px;
+    display: inline-block;
+    background-image: url("../images/tel.png");
+}
+#header>.welcome>.warp .mail{
+    width:19px;
+    height:13px;
+    display: inline-block;
+    background-image: url("../images/mail.png");
+}
+/* 右边文字和图标之间的间距 */
+#header>.welcome>.warp>.textRight>span{
+    margin-left: 23px;
+}
+/* 图标和导航栏 */
+#header>.logoAndnav{
+    height:103px;
+}
+/* 左边图标 */
+#header>.logoAndnav>.warp>.logo{
+    width:150px;
+    height:103px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    /* 图片居中的方法 */
+    background-position: 0 center;
+}
+
+/* 去除鼠标悬停的样式 */
+/* #header>.logoAndnav>.warp>.nav a:hover{
+    text-decoration: none;
+}
+#header>.logoAndnav>.warp>.nav a:first-child{
+    height:40px;
+    background-image: url("../images/nav_move.jpg");
+    
+}  */
+/* 脚部 */
+#footer{
+    width: 100%;
+    height: 448px;
+    background: #141414;
+    /* 解决外边距塌陷 */
+    padding-top: 1px;
+}
+/* 脚部中间信息 */
+/* 版心 */
+#footer>.centerMessage>.warp{
+    height: 197px;
+    margin-top:71px;
+}
+/* 脚部左部分内容 */
+#footer>.centerMessage>.warp>.left{
+    height: 197px;
+    width: 450px;
+}
+/*logo  */
+#footer>.centerMessage>.warp>.left>.logo{
+    width:160px ;
+    height:51px ;
+    background-image: url("../images/logo2.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 28px;
+}
+/* 地址等联系信息 */
+#footer>.centerMessage>.warp>.left .icon{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    background-image: url("../images/icon.jpg");
+    position: relative;
+    top: 6px;
+}
+#footer>.centerMessage>.warp>.left .icon2{
+    background-position: 0px -39px;
+}
+#footer>.centerMessage>.warp>.left .icon3{
+    background-position: 0px 23px;
+}
+#footer>.centerMessage>.warp>.left div{
+    margin-bottom: 18px;
+    color: #818388;
+    font-size: 16px;
+}
+/*脚部中间部分内容  */
+#footer>.centerMessage>.warp>.center{
+    height: 197px;
+    width: 300px;
+}
+/*标题  */
+#footer>.centerMessage>.warp>.center .line,
+#footer>.centerMessage>.warp>.right .line
+{
+    width: 80px;
+    height:44px ;
+    background-image: url("../images/line_bg.png"); 
+    font-size:20px;
+    margin-bottom: 38px;
+}
+/* 列表 */
+#footer>.centerMessage>.warp>.center li{
+    width: 50%;
+    float: left;
+    height: 47px;
+}
+#footer>.centerMessage>.warp>.center a{
+    font-size: 14px;
+    color: #818388;
+    text-decoration: none;
+}
+/*  脚部右部分内容*/
+#footer>.centerMessage>.warp>.right{
+    height: 197px;
+    width: 400px;
+    margin-left: 50px;
+}
+/* 搜索按钮 */
+#footer>.centerMessage>.warp>.right>.searchBar{
+    width:320px ;
+    height: 46px;   
+}
+/* 搜索文本框 */
+#footer>.centerMessage>.warp>.right>.searchBar>input{
+    width:220px ;
+    height: 46px;
+    float: left;
+    border: none;
+    outline: none;
+    text-indent: 5px;
+}
+/* 按钮*/
+#footer>.centerMessage>.warp>.right>.searchBar>button{
+    width:100px ;
+    height: 46px;
+    float: left;
+    border: none;
+    outline: none;
+    background: #3aa27f;
+    
+}
+/*  关注我们*/
+#footer>.centerMessage>.warp>.right>.attention{
+   margin-top: 32px;
+   font-size: 16px;
+    color: #818388;
+}
+#footer>.centerMessage>.warp>.right>.attention span{
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    background-image: url("../images/fenxiang.png"); 
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+#footer>.centerMessage>.warp>.right>.attention .share{
+    background-position: 32px 0px; 
+}
+/*页脚信息 */
+#footer{
+    /* 父相 */
+    position: relative;
+}
+#footer>.footerMessage{
+    width: 100%;
+    height: 79px;
+    background: #000000;
+    /* 子绝 */
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+/* 版心文字 */
+#footer>.footerMessage>.warp{
+    font-weight: bold;
+    color: #818388;
+    text-align: center;
+    line-height: 79px;
+}
+
+/*右边导航栏目  */
+
+#header .nav li{ 
+    float: left;
+    width: 100px;
+    background-color: rgb(145, 47, 107);
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    position: relative; 
+    margin-top: 40px
+}
+#header .nav li  a{
+    color: #fff;
+}
+
+#header .nav .active{
+    background-color: orange;
+}
+#header .nav li p{
+    position: absolute;
+    background-color: rgb(144, 122, 185);
+    width: 100%;
+    z-index: 900;
+    display: none;
+}
+#header .nav li p a{
+    float: left;
+    width: 100%;
+ } 
+/* 倒计时 */
+ .boxTime {
+    background: rgb(226, 171, 219);
+    color: rgb(18, 20, 22);
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 16px;
+}

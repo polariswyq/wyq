@@ -1,0 +1,83 @@
+/*产品详情页  */
+/* 右边内容 */
+#main{
+    height: 1000px;
+    margin-bottom: 64px;
+}
+#main>.centerPart .rightContent{
+    width: 912px;
+    height: 812px;
+    border:  3px solid #e8e8e8;
+    
+}
+/* 实木照片墙 */
+#main>.centerPart .rightContent>.imgAndtext{
+    width: 912px;
+    height: 316px;
+    margin-bottom: 75px;
+}
+/* 图片 */
+#main>.centerPart .rightContent>.imgAndtext>img{
+    margin: 51px 0px 0px 96px;
+}
+/* 文字 */
+#main>.centerPart .rightContent>.imgAndtext>.rf{
+    width: 545px;
+    height: 265px;
+    margin-top: 51px;
+}
+#main>.centerPart .rightContent>.imgAndtext .text1{
+    font-size: 20px;
+    color: #3f3e45;
+    font-weight: bold;
+    border-bottom:3px solid #e8e8e8;
+    width: 510px;
+    margin-bottom: 10px;
+    line-height: 38px;
+    
+}
+#main>.centerPart .rightContent>.imgAndtext .price{
+    font-size: 14px;
+    color:#bbb8b5;
+    font-weight:bold;
+}
+#main>.centerPart .rightContent>.imgAndtext .number{
+    font-size:20px;
+    color: #606369;
+    font-weight:bold;
+}
+/* 灰框字栏 */
+#main>.centerPart .rightContent .grayText{
+     width:870px;
+    height:38px; 
+    font-size:14px;
+    font-weight: bold;
+    color: #a5a5b1;
+    background:#f5f5f5;
+    line-height: 38px;
+    margin-left: 21px;
+    text-indent:1em;
+}
+/*  文字*/
+#main>.centerPart .rightContent .manyText{
+    width:867px ;
+    font-size:14px ;
+    color:#3f3e45;
+    font-weight: bold;
+    margin-left: 22px;
+    margin-top: 17px;
+    text-indent:2em;
+    margin-bottom:38px;
+}
+/* pageTurning */
+#main>.centerPart .rightContent .pageTurning{
+    font-size: 16px;
+    font-weight: bold;
+    color: #606369;
+}
+#main>.centerPart .rightContent>.pageTurning>span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #a5a5b1;
+    margin-left: 26px;
+}

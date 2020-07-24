@@ -1,0 +1,54 @@
+/* 除去首页外的公共样式 */
+/* banner */
+#banner{
+    width: 100%;
+    height: 310px;
+    background-image: url("../images/banner5.jpg");
+    background-position: -190px 0px;
+}
+/*  小标题*/
+#main>.smallTitle{
+    border-bottom: 1px solid #f3f3f3;
+    padding: 18px 0px;
+    color: #818388;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*  中间部分*/
+#main>.centerPart{
+    width: 100%;
+    min-height: 600px;
+    margin-bottom: 54px;
+}
+/* 标题头 */
+#main>.centerPart>.warp>.tltleTop{
+    font-size: 22px;
+    color: #252525;
+    margin-top: 36px;
+}
+#main>.centerPart>.warp>.tltleTop>.underline{
+    border-bottom: 3px solid #15bded;
+    width: 52px;
+    margin: 20px 0px;
+}
+/* 列表和文本内容 */
+#main>.centerPart>.warp>.listAndtext{
+    width:100%;
+    height:600px;
+}
+/*  左边列表 */
+/* 列表 */
+#main>.centerPart>.warp>.listAndtext>.leftList li{
+width: 260px;
+height: 48px;
+background: #f2f2f2;
+margin-bottom: 2px;
+text-align: center;
+line-height:48px;
+font-size: 14px;
+color: #252525;
+}
+/* 图片 */
+#main>.centerPart>.warp>.listAndtext>.leftList img{
+    margin-top: 22px;
+}

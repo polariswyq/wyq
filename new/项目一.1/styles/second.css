@@ -1,0 +1,17 @@
+/* 关于我们页样式 */
+/*右边文字*/
+#main>.centerPart>.warp>.listAndtext>.text{
+    width: 900px;
+}
+#main>.centerPart>.warp>.listAndtext>.text .bold{
+    font-weight: bold;
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+#main>.centerPart>.warp>.listAndtext>.text .text1{
+    font-size: 14px;
+    color: #818388;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
